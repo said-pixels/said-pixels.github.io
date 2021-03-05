@@ -10,15 +10,17 @@
 
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
         <link type="text/css" rel="stylesheet" href="css/style.css" />
-    
-               <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+        
+ 
+
+        <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
     </head>
 
-    <body class="homepageTemplate">
+    <body class="Templatequiz">
         <div class="fullsite">
             <section>
                 <div class="row">
-                    <div class="col-xs-5 bg ">
+                    <div class="col-xs-5 bg">
                         <div class="logo">
                             <a href="index" title="Ramadan Fasting Risk Tn">
                                 <img src="images/logo-Ramadan fasting_risk.png" alt="Ramadan Fasting Risk Tn" />
@@ -26,32 +28,39 @@
                         </div>
 
                         <div class="content">
-                            <h1>Bienvenue</h1>
+                           
 
                             <h2>
-                                Cette page est destinée uniquement<br />
-                                <span>aux professionnels de la santé</span>
+                             Votre patient diabétique<br>
+vous consulte parce qu'il souhaite<br>
+jeuner le mois de RAMADAN
                             </h2>
-                            <form>
-                                <div class="form-group-home">
-                                    <input type="checkbox" id="choix"  onclick="window.location.href='quiz.html'"/>
-                                    <label for="choix"> <span>Je confirme que je suis un professionnel de santé</span> </label>
-                                </div>
-                            </form>
-                            <div class="logo-Ramadan">
-                                <img src="images/logo-Ramadan.png" alt="logo-Ramadan" />
+                            <h3><span>Calculez son risque du jeûne du mois de RAMADAN</span><br>
+selon les dernières recommandations DAR 2021</h3>
+
+
+                          
+                            <div class="btn-commencer">
+                               <p><a href="question">Commencer</a></p>
                             </div>
                         </div>
 
                         <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
                     </div>
-                    <div class="col-xs-7 bg-right ">
-                        <div class="content-right ">
+                    <div class="col-xs-7 bg-right">
+                        <div class="content-right">
                             <div class="logo-sanofi">
                                 <a href="https://www.sanofi.com/" title="logo sanofi">
                                     <img src="images/logo-sanofi.png" alt="sanofi" />
                                 </a>
                             </div>
+
+                              <div class="img-quiz bounce-animate">
+                     
+                                    <img src="images/img-quiz.png" alt="sanofi" />
+                             
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -62,13 +71,12 @@
 
         <!-- Scripts -->
 
-        
+      
         <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/bootstrap.js"></script>
-      
+    
         <script src="js/move-top.js"></script>
         <script src="js/easing.js"></script>
-          <script src="js/jquery.matchHeight-min.js"></script>
         <script type="text/javascript">
             AOS.init({ duration: 1200 });
         </script>
@@ -87,9 +95,6 @@
             });
         </script>
         <script type="text/javascript">
-               $('.equal').matchHeight({
-            property: 'min-height'
-        });
             $(document).ready(function () {
                 /*
       var defaults = {

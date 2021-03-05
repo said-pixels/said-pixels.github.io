@@ -1,0 +1,960 @@
+/*--------------------------------------------------
+# Fonts
+--------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@font-face {
+    font-family: "Catorze27 Style 1";
+    src: url("../fonts/Catorze27Style1-Medium.woff2") format("woff2"), url("../fonts/Catorze27Style1-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Catorze27 Style 1";
+    src: url("../fonts/Catorze27Style1-Bold.woff2") format("woff2"), url("../fonts/Catorze27Style1-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/Impact.woff2") format("woff2"), url("../fonts/Impact.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Catorze27 Style 1";
+    src: url("../fonts/Catorze27Style1-Black.woff2") format("woff2"), url("../fonts/Catorze27Style1-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*--------------------------------------------------
+# General
+--------------------------------------------------*/
+body {
+    background: #fff;
+    color: #185ca4;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+/* This css is for normalizing styles. You can skip this. */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------------------
+# Home page
+--------------------------------------------------*/
+section .logo {
+    padding: 50px 0px 0px 50px;
+}
+
+section .row,
+section .col-sm-4,section .col-xs-5,section .col-xs-7 {
+    padding: 0;
+    margin: 0;
+}
+section .bg,
+section .bg-right {
+    position: relative;
+}
+section .bg:before {
+    position: absolute;
+    background: url(../images/bg-top.png) center no-repeat;
+    top: 0;
+    width: 186px;
+    right: 0;
+    content: "";
+    height: 224px;
+    background-size: contain;
+    -webkit-animation: float-bob 3s infinite ease-in-out;
+    -o-animation: float-bob 3s infinite ease-in-out;
+    -ms-animation: float-bob 3s infinite ease-in-out;
+    -moz-animation: float-bob 3s infinite ease-in-out;
+    animation: float-bob 3s infinite ease-in-out;
+    z-index: -1;
+}
+section .bg-right:before {
+    position: absolute;
+    background: url(../images/bg-top-right.png) center no-repeat;
+    top: 0;
+    width: 250px;
+    left: 48px;
+    content: "";
+    height: 324px;
+    background-size: contain;
+    -webkit-animation: float-bob 3s infinite ease-in-out;
+    -o-animation: float-bob 3s infinite ease-in-out;
+    -ms-animation: float-bob 3s infinite ease-in-out;
+    -moz-animation: float-bob 3s infinite ease-in-out;
+    animation: float-bob 3s infinite ease-in-out;
+    z-index: 0;
+}
+section .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: calc(100vh - 200px);
+    text-align: center;
+}
+
+section .content h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    color: #1a60ab;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+section .content h2 {
+    font-family: "Catorze27 Style 1";
+    color: #185ca4;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+section .content h2 span {
+    font-family: "Catorze27 Style 1";
+    color: #b4b832;
+    font-size: 40px;
+    font-weight: bold;
+}
+section .text-btm {
+    padding-left: 50px;
+}
+
+.form-group-home {
+    border-radius: 20px;
+
+    box-shadow: 19.5px 33.775px 49.14px 4.86px rgba(43, 86, 132, 0.36);
+
+    display: block;
+
+    padding: 25px 25px;
+
+    margin: 52px 0px;
+}
+
+.form-group-home input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-group-home label {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.form-group-home label .span {
+    padding-left: 5px;
+}
+.form-group-home label:before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #0079bf;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.form-group-home input:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: 10px;
+    width: 15px;
+    height: 22px;
+    border: solid #b4b832;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.logo-Ramadan {
+    padding-top: 40px;
+}
+
+section .content-right {
+    background: url(../images/bg-right.png) center no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+section .logo-sanofi {
+    float: right;
+    padding: 50px 50px 0px 0px;
+}
+
+.bounce-animate {
+    animation-name: float-bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+@-webkit-keyframes float-bob {
+    0% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    50% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    100% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+}
+/*--------------------------------------------------
+# Page Quiz
+--------------------------------------------------*/
+
+body.Templatequiz section .content-right {
+    background: url(../images/bg-quiz.jpg) center no-repeat;
+}
+body.Templatequiz section .content h2 {
+    font-family: "Catorze27 Style 1";
+    color: #b4b832;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body.Templatequiz section .content h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #1a60ab;
+    font-weight: 400;
+}
+body.Templatequiz section .content h3 span {
+    font-weight: bold;
+}
+
+body.Templatequiz section .content .btn-commencer a {
+    padding: 30px 40px;
+    color: #b4b832;
+    font-size: 27px;
+    background: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: 19.5px 33.775px 49.14px 4.86px rgba(43, 86, 132, 0.36);
+    margin-top: 54px;
+    display: inline-block;
+}
+body.Templatequiz section .content .btn-commencer a:hover {
+    background: #b4b832;
+    color: #fff;
+}
+body.Templatequiz section .content-right .img-quiz {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    text-align: center; /* transform: translateX(131px); */
+    padding-left: 176px;
+}
+
+body.Templatequiz section .content-right .img-quiz img {
+    width: 450px;
+}
+body.Templatequiz section .bg:before,
+body.Templatequiz section .bg-right:before {
+    animation: none;
+}
+
+/*--------------------------------------------------
+# Page question
+--------------------------------------------------*/
+body.Templatequestion section.part1 {
+    background: url(../images/bg-question.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body.Templatequestion section .text-btm {
+    color: #fff;
+}
+body.Templatequestion section .logo {
+    float: left;
+}
+body.Templatequestion section .content {
+    height: calc(100vh - 253px);
+}
+body.Templatequestion section .content h2 {
+    color: #fff;
+}
+body.Templatequestion section .content .quiz-body {
+    background: #fff;
+    width: 800px;
+    padding: 30px;
+    margin-top: 43px;
+    border-radius: 20px;
+    box-shadow: 21px 36.373px 89.18px 8.82px rgba(7, 45, 86, 0.67);
+    height: 400px;
+    position: relative;
+}
+
+body.Templatequestion section .content .quiz-body .form-group {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 35px;
+    width: 100%;
+}
+body.Templatequestion section .content .quiz-body .form-group #question {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 23px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+body.Templatequestion section .content .quiz-body .form-group #optionval {
+    font-weight: 400;
+    color: #616161;
+    font-size: 20px;
+    padding-left: 34px;
+    padding-bottom: 4px;
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+}
+
+body.Templatequestion section .content .quiz-body .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+body.Templatequestion section .content .quiz-body .form-group #optionval:before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #cccccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    cursor: pointer;
+    /* margin-right: 17px; */
+    border-radius: 50%;
+    left: -11px;
+}
+
+body.Templatequestion section .content .quiz-body .form-group input:checked + #optionval:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    width: 10px;
+    height: 18px;
+    border: solid #b4b832;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+body.Templatequestion section .content .quiz-body #qid {
+    float: right;
+    font-family: "Impact";
+    font-size: 34px;
+}
+
+body.Templatequestion section .content .quiz-body #qid .sous-title {
+    font-size: 25px;
+}
+body.Templatequestion section .content .quiz-body .btn-suivant,
+body.Templatequestion section .content .quiz-body .btn-Precedent {
+    background: none;
+    text-shadow: 3px 5.196px 7.28px rgba(7, 45, 86, 0.67);
+    font-family: "Impact";
+    font-size: 23px;
+    border: none;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    bottom: -45px;
+}
+body.Templatequestion section .content .quiz-body .btn-suivant i {
+    padding-left: 10px;
+}
+body.Templatequestion section .content .quiz-body .btn-Precedent i {
+    padding-right: 10px;
+}
+
+body.Templatequestion section .content .quiz-body .btn-Precedent {
+    left: 0px;
+}
+body.Templatequestion section .content .quiz-body .btn-suivant:focus,
+body.Templatequestion section .content .quiz-body .btn-Precedent:focus {
+    outline: none !important;
+}
+
+/*--------------------------------------------------
+#  result1
+--------------------------------------------------*/
+body.Templatequestion section.result1 {
+    background: url(../images/bg-blanc.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body.Templatequestion section.result1 .text-btm {
+    color: #185ca4;
+    display: inline-block;
+    padding: 30px 0px;
+    padding-left: 50px;
+}
+
+body.Templatequestion section.result1 .content {
+    height: auto;
+}
+body.Templatequestion section.result1 .content h2 {
+    color: #54b54e;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+body.Templatequestion section.result1 .bloc1,
+body.Templatequestion section.result1 .bloc2,
+body.Templatequestion section.result1 .bloc3 {
+    background: #fff;
+    width: 100%;
+    padding: 30px;
+    margin-top: 18px;
+    box-shadow: 0px 2px 50px -5px rgb(7 45 86 / 67%);
+    height: 400px;
+}
+body.Templatequestion section.result1 .bloc2 {
+    background: #15589f;
+    color: #fff;
+    text-align: left;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 19px;
+}
+body.Templatequestion section.result1 .bloc1 {
+    border-radius: 20px 0 0 20px;
+}
+body.Templatequestion section.result1 .bloc3 {
+    border-radius: 0px 20px 20px 0px;
+}
+body.Templatequestion section.result1 .bloc1 h2,
+body.Templatequestion section.result1 .bloc3 h2 {
+    font-weight: 500;
+}
+body.Templatequestion section.result1 .bloc1 h2 span.sous-h2 {
+    font-weight: 900;
+    color: #54b54e;
+}
+body.Templatequestion section.result1 .bloc3 h2 {
+    color: #15589f;
+    margin: 50px 0px 30px;
+}
+body.Templatequestion section.result1 .bloc3 h2 span.sous-h2 {
+    font-weight: 900;
+    color: #15589f;
+}
+
+body.Templatequestion section.result1 .bloc3 .txt-btm-bloc3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #54b54e;
+}
+body.Templatequestion section.result1 .bloc2 h4 {
+    font-size: 15px;
+    text-shadow: 4.5px 7.794px 8px rgba(14, 69, 128, 0.67);
+    font-weight: bold;
+    margin: 50px 0px 30px;
+}
+
+body.Templatequestion section.result1 .ref {
+    font-size: 13px;
+    color: #15589f;
+    box-shadow: 2px 1px 103.84px 65px rgb(7 45 86 / 13%);
+    text-align: left;
+    background: rgb(255, 255, 255, 0.8);
+    width: 800px;
+    margin: auto;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    position: relative;
+}
+body.Templatequestion section.result1 .ref-btm {
+    font-size: 11px;
+}
+body.Templatequestion section.result1 .title-ref {
+    color: #b4b832;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+body.Templatequestion section.result1 .ref:after {
+    position: absolute;
+    width: 90px;
+    height: 81px;
+    background: url(../images/icon.png) center no-repeat;
+    right: -117px;
+    bottom: 43px;
+    content: "";
+    background-size: contain;
+}
+body.Templatequestion section.result1 .ref:before {
+    position: absolute;
+    width: 36px;
+    height: 53px;
+    background: url(../images/flech.png) center no-repeat;
+    right: -36px;
+    bottom: 67px;
+    content: "";
+    background-size: contain;
+}
+
+
+body.Templatequestion 
+section .col-sm-4
+ {
+    padding-right: 2px;
+
+    padding-left: 2px;
+}
+
+/*--------------------------------------------------
+#  result2
+--------------------------------------------------*/
+
+body.Templatequestion section.result1 .content .couleur-orange {
+    color: #fdb814 !important;
+ 
+}
+/*--------------------------------------------------
+#  result3
+--------------------------------------------------*/
+body.Templatequestion section.result1 .content .couleur-rouge {
+    color: #ed1a3a !important;
+ 
+}
+
+
+body.Templatequestion section.result1 .content .couleur-vert{
+    color: #54b54e!important;
+ 
+}
+
+
+
+
+
+
+
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 24px;
+    right: 3%;
+    overflow: hidden;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: #b4b832;
+    border-radius: 3px;
+}
+#toTop:hover{
+box-shadow: -1px 1px 23.84px 9px rgb(7 45 86 / 73%);}
+.fa-angle-up:before {
+
+    color: #fff;
+    right: 21px;
+    font-size: 18px;
+    z-index: 9999;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+}
+
+
+
+
+
+
+#toTopHover {
+    width: 32px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+/*--------------------------------------------------
+#  Animation aiguille
+--------------------------------------------------*/
+/*.img{
+    position: relative
+}
+.eguile{
+position: absolute;
+width: 91px;
+height:24px;
+background:url(../images/eguile.png) center no-repeat;
+background-size: 100% 100%;
+top: 0px;
+left:0px;
+
+
+
+
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------
+#  respensive
+--------------------------------------------------*/
+@media only screen and (max-width : 1366px) {
+
+section .content h1 {font-size: 45px;}
+section .content h2 {font-size: 27px;}
+section .content h2 span { font-size: 32px;}
+.form-group-home label { font-size: 17px;}
+.form-group-home {
+    padding: 16px 18px;
+    margin: 18px 0px;
+}
+.logo-Ramadan {
+    padding:15px 0px;
+}
+
+body.Templatequiz section .content-right .img-quiz img {
+    width: 361px;
+}
+
+body.Templatequiz section .content h2 {
+ 
+    font-size: 22px;
+  
+}
+
+body.Templatequiz section .content h3 {
+
+    font-size: 16px;
+
+}
+body.Templatequiz section .content .btn-commencer a {
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 35px;
+
+}
+body.Templatequestion section.part1 {
+    height: 100vh;
+    padding-bottom: 50px;
+}
+body.Templatequestion section .content {
+    height:auto;
+}
+body.Templatequestion section .text-btm {
+   
+    padding-top: 88px;
+    display: inline-block;
+}
+}
+ @media only screen and (max-width : 1199px) {
+
+section .logo {
+    padding: 15px 0px 0px 15px;
+}
+
+
+section .logo-sanofi {
+   
+    padding: 15px 15px 0px 0px;
+}
+section .logo img{
+
+max-width:200px;
+}
+section .logo-sanofi img{
+max-width:100px;
+
+}   
+section .content h2 {
+    font-size: 23px;
+}
+section .content h1 {
+    font-size: 32px;
+}
+section .content h2 span {
+    font-size: 23px;
+}
+
+section .content h2 {
+    font-size: 18px;
+}
+.form-group-home label {
+    font-size: 14px;
+}
+.logo-Ramadan img {
+    max-width: 180px;
+}
+section .bg:before {
+    width: 83px;
+    height: 131px;}
+section .bg-right:before {
+ 
+    width: 114px;
+    height: 183px;}
+
+section .text-btm {
+    padding-left: 13px;
+    font-size: 13px;
+}
+.form-group-home {
+    border-radius: 10px;
+    padding: 4px 5px;
+    margin: 18px 0px;
+}
+
+body.Templatequiz section .content h2 {
+    font-size: 20px;
+}
+body.Templatequestion section.result1 .bloc1 img{
+   max-width: 166px;
+}
+body.Templatequestion section.result1 .bloc1, body.Templatequestion section.result1 .bloc2, body.Templatequestion section.result1 .bloc3 {
+padding: 20px;
+}
+
+body.Templatequestion section.result1 .bloc2 h4 {
+    font-size: 13px;}
+
+body.Templatequestion section.result1 .ref {
+ 
+    width: 617px;}
+
+
+
+
+
+
+
+
+}
+
+
+ @media only screen and (max-width : 991px) {
+body.Templatequestion section .content .quiz-body {
+  
+width: 100%;
+      padding: 15px;
+height: auto;
+}
+
+body.Templatequestion section .content .quiz-body .form-group #question {
+ 
+    font-size: 18px;
+
+}
+body.Templatequestion section .content .quiz-body .form-group #optionval {
+  
+    padding-left: 19px;}
+body.Templatequestion section .content .quiz-body .form-group {
+  
+    padding-left: 10px;
+ 
+}
+
+
+body.Templatequestion section.result1 .ref {
+padding: 20px 19px;
+width: 552px;
+margin-left: 0px;
+}
+body.Templatequiz section .content-right .img-quiz img {
+    width: 286px;
+}
+body.Templatequiz section .content-right .img-quiz{
+padding-left: 90px;}
+
+
+ }
+
+
+@media only screen and (max-width: 700px){
+body.Templatequestion section.result1 .ref {
+  padding: 20px 15px;
+    width: 100%;
+ 
+} 
+body.Templatequestion section.result1 .ref:before{
+    display: none}
+
+body.Templatequestion section.result1 .ref:after {
+    bottom:auto;
+    width: 70px;
+    height: 61px;
+    right: 0;
+    top: 0px;
+   
+}
+body.Templatequestion section.result1 .bloc1, body.Templatequestion section.result1 .bloc2, body.Templatequestion section.result1 .bloc3 {
+    padding: 20px 15px;
+}
+section .content h1 {
+    font-size: 21px;
+}
+
+body.Templatequiz section .content-right .img-quiz img {
+    width: 182px;
+}
+body.Templatequiz section .content h2 {
+    font-size: 14px;
+}
+body.Templatequiz section .content h3 {
+    font-size: 10px;
+}
+body.Templatequiz section .content .btn-commencer a {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+
+}
+
+
+@media only screen and (max-width : 480px) {
+body.Templatequestion section .logo, body.Templatequestion section .logo-sanofi{
+  float: none;
+    margin:10px auto;
+    display: table;
+
+}
+
+body.homepageTemplate section .bg:before,body.homepageTemplate section .bg-right:before  {
+ display:none;
+}
+.logo-Ramadan img {
+    max-width: 90px;
+}
+body.homepageTemplate section .content h2 {
+    font-size: 14px;
+}
+body.homepageTemplate section .content h2 span {
+    font-size: 12px;
+}
+
+body.homepageTemplate  section .logo img,body.Templatequiz  section .logo img{
+    max-width: 102px;
+}
+body.homepageTemplate section .logo-sanofi img,body.Templatequiz section .logo-sanofi img {
+    max-width: 57px;
+}
+.form-group-home label {
+    font-size: 11px;
+ 
+    line-height: 15px;
+}
+body.Templatequiz section .content-right .img-quiz img {
+    width: 138px;
+}
+body.Templatequiz section .content-right .img-quiz {
+    padding-left: 65px;
+}
+body.Templatequiz section .content h2 {
+    font-size: 12px;
+}
+.form-group-home label:before {
+
+    padding: 6px;
+  
+}
+body.Templatequiz section .bg:before,body.Templatequiz section .bg-right:before  {
+ display:none;
+}
+
+body.Templatequiz   section .text-btm ,body.homepageTemplate section .text-btm{
+    padding-left: 13px;
+    font-size: 12px;
+    line-height:  15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.form-group-home input:checked + label:after {
+    content: "";
+
+    top: 1px;
+    left: 10px;
+    width: 6px;
+    height: 14px;
+
+}
+
+
+
+
+    }
