@@ -1,382 +1,354 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
-        <title>Ramadan Fasting Risk Tn</title>
+    <title>Ramadan Fasting Risk Tn</title>
 
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-        <link type="text/css" rel="stylesheet" href="css/style.css" />
-    
-      
-
-        <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
-    </head>
-
-    <body class="Templatequestion">
-        <div class="fullsite">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
 
 
 
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+</head>
 
- <section class="part1" >
-                <section>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="logo">
-                                <a href="index" title="Ramadan Fasting Risk Tn">
-                                    <img src="images/logo-Ramadan-fasting_risk-blanc.png" alt="Ramadan Fasting Risk Tn" />
-                                </a>
+<body class="Templatequestion">
+    <div class="fullsite">
+        <section class="part1">
+            <section>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="logo">
+                            <a href="index" title="Ramadan Fasting Risk Tn">
+                                <img src="images/logo-Ramadan-fasting_risk-blanc.png" alt="Ramadan Fasting Risk Tn" />
+                            </a>
+                        </div>
+                        <div class="logo-sanofi">
+                            <a href="https://www.sanofi.com/" title="logo sanofi">
+                                <img src="images/logo-sanofi.png" alt="sanofi" />
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
+
+                        <div class="content">
+                            <h2>
+                                Choisissez les réponses correspondantes au<br />
+                                <span> profil de votre patient</span>
+                            </h2>
+
+                            <div id="result" class="quiz-body">
+                                <form name="quizForm" onSubmit="">
+                                    <span id="qid"></span>
+                                    <fieldset class="form-group">
+                                        <h4><span id="question"></span></h4>
+
+                                        <div class="option-block-container" id="question-options"></div>
+                                        <!-- End of option block -->
+                                    </fieldset>
+                                </form>
+                                <button name="previous" id="previous" class="btn-Precedent"><i class="fa fa-arrow-left"></i> Précédent</button>
+                                &nbsp;
+                                <button name="next" id="next" class="btn-suivant">
+                                    <span class="nxt">Suivant <i class="fa fa-arrow-right" aria-hidden="true"></i></span><span class="valider">Valider</span>
+                                </button>
                             </div>
-                            <div class="logo-sanofi">
-                                <a href="https://www.sanofi.com/" title="logo sanofi">
-                                    <img src="images/logo-sanofi.png" alt="sanofi" />
-                                </a>
-                            </div>
-                            <div style="clear: both;"></div>
+                        </div>
 
-                            <div class="content">
+                        <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="result1 vert" style="display: none;">
+            <section>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="logo">
+                            <a href="/" title="Ramadan Fasting Risk Tn">
+                                <img src="images/logo-Ramadan fasting_risk.png" alt="Ramadan Fasting Risk Tn" />
+                            </a>
+                        </div>
+                        <div class="logo-sanofi">
+                            <a href="/" title="logo sanofi">
+                                <img src="images/logo-sanofi-couleur.png" alt="sanofi" />
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
+
+                        <div class="content">
+                            <div class="container">
                                 <h2>
-                                    Choisissez les réponses correspondantes au<br />
-                                    <span> profil de votre patient</span>
+                                    LE SCORE DE VOTRE PATIENT EST: <span id="sum" class="couleur-vert"></span>
                                 </h2>
 
-                                <div id="result" class="quiz-body">
-                                    <form name="quizForm" onSubmit="">
-                                        <span id="qid"></span>
-                                        <fieldset class="form-group">
-                                            <h4><span id="question"></span></h4>
-
-                                            <div class="option-block-container" id="question-options"></div>
-                                            <!-- End of option block -->
-                                        </fieldset>
-                                    </form>
-                                    <button name="previous" id="previous" class="btn-Precedent"><i class="fa fa-arrow-left"></i> Précédent</button>
-                                    &nbsp;
-                                    <button name="next" id="next" class="btn-suivant">
-                                        <span class="nxt">Suivant <i class="fa fa-arrow-right" aria-hidden="true"></i></span><span class="valider">Valider</span>
-                                    </button>
-                                </div>
-                            </div>
-
-                            <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
-                        </div>
-                    </div>
-                </section>
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <section class="result1 vert" style="display: none;">
-                <section>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="logo">
-                                <a href="/" title="Ramadan Fasting Risk Tn">
-                                    <img src="images/logo-Ramadan fasting_risk.png" alt="Ramadan Fasting Risk Tn" />
-                                </a>
-                            </div>
-                            <div class="logo-sanofi">
-                                <a href="/" title="logo sanofi">
-                                    <img src="images/logo-sanofi-couleur.png" alt="sanofi" />
-                                </a>
-                            </div>
-                            <div style="clear: both;"></div>
-
-                            <div class="content">
-                                <div class="container">
-                                    <h2>
-                                        LE SCORE DE VOTRE PATIENT EST: <span id="sum" class="couleur-vert"></span>
-                                    </h2>
-
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="bloc1">
-                                                <div class="img">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="bloc1">
+                                            <div class="img">
                                                 <img src="images/risk.png" alt="Risk" />
                                                 <div class="eguile"></div>
                                             </div>
-                                                <h2>
-                                                    patient<br />
-                                                    <span class="sous-h2">à faible risque </span>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="bloc2">
-                                                <h4>Les personnes dont le niveau de risque est faible devraient pouvoir jeûner.</h4>
-                                                <p>
-                                                    Ces patients ont un faible risque de survenue de complications liées au jeûne du mois de ramadan. Cependant les circonstances peuvent changer conduisant à un changement du score du risque;
-                                                    Par conséquent, la stratification des risques doit être effectuée chaque année pour evaluer le niveau de risque avant le mois de Ramadan.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="bloc3">
-                                                <h2>
-                                                    <span class="sous-h2">recommandations</span><br />
-                                                    médicales:
-                                                </h2>
-
-                                                <p class="txt-btm-bloc3"><i class="fa fa-arrow-right" aria-hidden="true"></i> Jeûner en sécurité</p>
-                                            </div>
+                                            <h2>
+                                                patient<br />
+                                                <span class="sous-h2">à faible risque </span>
+                                            </h2>
                                         </div>
                                     </div>
-                                    <div class="ref">
-                                        <p><span class="title-ref">Le jeûne devrait être interrompu si: </span><br>
-                                            - Glycémie &#60; 70 mg/dl (3,9 mmol/l), vérifiez après 1 heure si la glycémie est comprise entre 70 mg/dl et 90 mg/dl (3,9-5 mmol/l)<br> - Glycémie > 300 mg/dl (16,6
-                                        mmol/l)*<br> - Des symptômes d'hypoglycémie, d'hyperglycémie, de déshydratation ou apparition de maladie aiguë.<br>
+                                    <div class="col-sm-4">
+                                        <div class="bloc2">
+                                            <h4>Les personnes dont le niveau de risque est faible devraient pouvoir jeûner.</h4>
+                                            <p>
+                                                Ces patients ont un faible risque de survenue de complications liées au jeûne du mois de ramadan. Cependant les circonstances peuvent changer conduisant à un changement du score du risque;
+                                                Par conséquent, la stratification des risques doit être effectuée chaque année pour evaluer le niveau de risque avant le mois de Ramadan.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="bloc3">
+                                            <h2>
+                                                <span class="sous-h2">recommandations</span><br />
+                                                médicales:
+                                            </h2>
 
-                                       <span class="ref-btm"> Réf: Diabetes & Ramadan guidelines 2021, janv-2021 </span></p>
-
+                                            <p class="txt-btm-bloc3"><i class="fa fa-arrow-right" aria-hidden="true"></i> Jeûner en sécurité</p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="ref">
+                                    <p>
+                                        <span class="title-ref">Le jeûne devrait être interrompu si: </span><br>
+                                        - Glycémie &#60; 70 mg/dl (3,9 mmol/l), vérifiez après 1 heure si la glycémie est comprise entre 70 mg/dl et 90 mg/dl (3,9-5 mmol/l)<br> - Glycémie > 300 mg/dl (16,6
+                                        mmol/l)*<br> - Des symptômes d'hypoglycémie, d'hyperglycémie, de déshydratation ou apparition de maladie aiguë.<br>
 
-                                <div style="clear: both;"></div>
-                              
+                                        <span class="ref-btm"> Réf: Diabetes & Ramadan guidelines 2021, janv-2021 </span>
+                                    </p>
+
+                                </div>
                             </div>
-                              <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
-                        </div>
-                    </div>
-                </section>
-            </section>
 
-
-
-
-     <section class="result1  orange" style="display: none" >
-                <section>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="logo">
-                                <a href="https://www.sanofi.com/" title="Ramadan Fasting Risk Tn">
-                                    <img src="images/logo-Ramadan fasting_risk.png" alt="Ramadan Fasting Risk Tn" />
-                                </a>
-                            </div>
-                            <div class="logo-sanofi">
-                                <a href="/" title="logo sanofi">
-                                    <img src="images/logo-sanofi-couleur.png" alt="sanofi" />
-                                </a>
-                            </div>
                             <div style="clear: both;"></div>
 
-                            <div class="content">
-                                <div class="container">
-                                    <h2 class="couleur-orange">
-                                        LE SCORE DE VOTRE PATIENT EST: <span id="sum1" class="couleur-orange"></span>
-                                    </h2>
+                        </div>
+                        <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="result1  orange" style="display: none">
+            <section>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="logo">
+                            <a href="https://www.sanofi.com/" title="Ramadan Fasting Risk Tn">
+                                <img src="images/logo-Ramadan fasting_risk.png" alt="Ramadan Fasting Risk Tn" />
+                            </a>
+                        </div>
+                        <div class="logo-sanofi">
+                            <a href="/" title="logo sanofi">
+                                <img src="images/logo-sanofi-couleur.png" alt="sanofi" />
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
 
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="bloc1">
-                                                <img src="images/risk1.png" alt="Risk" />
+                        <div class="content">
+                            <div class="container">
+                                <h2 class="couleur-orange">
+                                    LE SCORE DE VOTRE PATIENT EST: <span id="sum1" class="couleur-orange"></span>
+                                </h2>
 
-                                                <h2 class="couleur-orange">
-                                                    patient<br />
-                                                    <span class="sous-h2 couleur-orange">à faible risque </span>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="bloc2">
-                                                <h4>Il est déconseillé aux personnes présentant un niveau de risque modéré de  jeûner.</h4>
-                                                <p>
-                                                 Beaucoup de ces patients choisiront de jeûner, cette importante décision personnelle doit être prise après une évaluation des risques associés lors d'une consultation médicale.<br><br>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="bloc1">
+                                            <img src="images/risk1.png" alt="Risk" />
 
-Ils doivent également connaitre les techniques ou stratégies permettant de réduire ce risque.<br><br>
-
-Si votre patient choisit de jeûner, il devra alors être prudent et imterrompre son jêune au moindre problème.
-
-
-
-
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="bloc3">
-                                                <h2>
-                                                    <span class="sous-h2 ">recommandations</span><br />
-                                                    médicales:
-                                                </h2>
-
-                                                <p class="txt-btm-bloc3 couleur-orange"><i class="fa fa-arrow-right" aria-hidden="true"></i> Evaluation médicale</p>
-                                                <p class="txt-btm-bloc3 couleur-orange"><i class="fa fa-arrow-right" aria-hidden="true"></i> Ajustement des médicaments</p>
-                                                <p class="txt-btm-bloc3 couleur-orange"><i class="fa fa-arrow-right" aria-hidden="true"></i> Surveillance stricte</p>
-                                            </div>
+                                            <h2 class="couleur-orange">
+                                                patient<br />
+                                                <span class="sous-h2 couleur-orange">à faible risque </span>
+                                            </h2>
                                         </div>
                                     </div>
-                                    <div class="ref">
-                                        <p><span class="title-ref">Le jeûne devrait être interrompu si: </span><br>
-                                            - Glycémie &#60; 70 mg/dl (3,9 mmol/l), vérifiez après 1 heure si la glycémie est comprise entre 70 mg/dl et 90 mg/dl (3,9-5 mmol/l)<br> - Glycémie > 300 mg/dl (16,6
-                                        mmol/l)*<br> - Des symptômes d'hypoglycémie, d'hyperglycémie, de déshydratation ou apparition de maladie aiguë.<br>
+                                    <div class="col-sm-4">
+                                        <div class="bloc2">
+                                            <h4>Il est déconseillé aux personnes présentant un niveau de risque modéré de  jeûner.</h4>
+                                            <p>
+                                                Beaucoup de ces patients choisiront de jeûner, cette importante décision personnelle doit être prise après une évaluation des risques associés lors d'une consultation médicale.<br><br>
 
-                                       <span class="ref-btm"> Réf: Diabetes & Ramadan guidelines 2021, janv-2021 </span></p>
+                                                Ils doivent également connaitre les techniques ou stratégies permettant de réduire ce risque.<br><br>
 
+                                                Si votre patient choisit de jeûner, il devra alors être prudent et imterrompre son jêune au moindre problème.
+
+
+
+
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="bloc3">
+                                            <h2>
+                                                <span class="sous-h2 ">recommandations</span><br />
+                                                médicales:
+                                            </h2>
+
+                                            <p class="txt-btm-bloc3 couleur-orange"><i class="fa fa-arrow-right" aria-hidden="true"></i> Evaluation médicale</p>
+                                            <p class="txt-btm-bloc3 couleur-orange"><i class="fa fa-arrow-right" aria-hidden="true"></i> Ajustement des médicaments</p>
+                                            <p class="txt-btm-bloc3 couleur-orange"><i class="fa fa-arrow-right" aria-hidden="true"></i> Surveillance stricte</p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="ref">
+                                    <p>
+                                        <span class="title-ref">Le jeûne devrait être interrompu si: </span><br>
+                                        - Glycémie &#60; 70 mg/dl (3,9 mmol/l), vérifiez après 1 heure si la glycémie est comprise entre 70 mg/dl et 90 mg/dl (3,9-5 mmol/l)<br> - Glycémie > 300 mg/dl (16,6
+                                        mmol/l)*<br> - Des symptômes d'hypoglycémie, d'hyperglycémie, de déshydratation ou apparition de maladie aiguë.<br>
 
-                                <div style="clear: both;"></div>
-                              
+                                        <span class="ref-btm"> Réf: Diabetes & Ramadan guidelines 2021, janv-2021 </span>
+                                    </p>
+
+                                </div>
                             </div>
-                              <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
-                        </div>
-                    </div>
-                </section>
-            </section>
 
-
-
-     <section class="result1 rouge" style="display: none">
-                <section>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="logo">
-                                <a href="/" title="Ramadan Fasting Risk Tn">
-                                    <img src="images/logo-Ramadan fasting_risk.png" alt="Ramadan Fasting Risk Tn" />
-                                </a>
-                            </div>
-                            <div class="logo-sanofi">
-                                <a href="/" title="logo sanofi">
-                                    <img src="images/logo-sanofi-couleur.png" alt="sanofi" />
-                                </a>
-                            </div>
                             <div style="clear: both;"></div>
 
-                            <div class="content">
-                                <div class="container">
-                                    <h2 class="couleur-rouge">
-                                        LE SCORE DE VOTRE PATIENT EST: <span id="sum2" class="couleur-rouge"></span>
-                                    </h2>
+                        </div>
+                        <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="result1 rouge" style="display: none">
+            <section>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="logo">
+                            <a href="/" title="Ramadan Fasting Risk Tn">
+                                <img src="images/logo-Ramadan fasting_risk.png" alt="Ramadan Fasting Risk Tn" />
+                            </a>
+                        </div>
+                        <div class="logo-sanofi">
+                            <a href="/" title="logo sanofi">
+                                <img src="images/logo-sanofi-couleur.png" alt="sanofi" />
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
 
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="bloc1">
-                                                <img src="images/risk1.png" alt="Risk" />
+                        <div class="content">
+                            <div class="container">
+                                <h2 class="couleur-rouge">
+                                    LE SCORE DE VOTRE PATIENT EST: <span id="sum2" class="couleur-rouge"></span>
+                                </h2>
 
-                                                <h2 class="couleur-rouge">
-                                                    patient<br />
-                                                    <span class="sous-h2 couleur-rouge">à risque élevé </span>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="bloc2">
-                                                <h4>Les personnes appartenant à la catégorie à haut risque ne devraient pas jeûner.</h4>
-                                                <p>
-                                            Votre patient présente un risque élevé à très élevé de développer des complications lors du jeune du mois de Ramadan, nous recommandons que votre patient ne jeune pas.<br><br>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="bloc1">
+                                            <img src="images/risk1.png" alt="Risk" />
 
-S'il insiste encore à jeuner, un maximum d'attention et une surveillance sricte devraient être accordés à coté des startégies et recommandarions publiées dans  " Diabetes and Ramadan: practical guideline 2021" .
-
-
-
-
-
-
-
-
-
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="bloc3">
-                                                <h2>
-                                                    <span class="sous-h2 ">recommandations</span><br />
-                                                    médicales:
-                                                </h2>
-
-                                                <p class="txt-btm-bloc3 couleur-rouge"><i class="fa fa-arrow-right" aria-hidden="true"></i> Il est déconseillé de jeûner</p>
-                                           
-                                            </div>
+                                            <h2 class="couleur-rouge">
+                                                patient<br />
+                                                <span class="sous-h2 couleur-rouge">à risque élevé </span>
+                                            </h2>
                                         </div>
                                     </div>
-                                    <div class="ref">
-                                        <p><span class="title-ref">Le jeûne devrait être interrompu si: </span><br>
-                                            - Glycémie &#60; 70 mg/dl (3,9 mmol/l), vérifiez après 1 heure si la glycémie est comprise entre 70 mg/dl et 90 mg/dl (3,9-5 mmol/l)<br> - Glycémie > 300 mg/dl (16,6
-                                        mmol/l)*<br> - Des symptômes d'hypoglycémie, d'hyperglycémie, de déshydratation ou apparition de maladie aiguë.<br>
+                                    <div class="col-sm-4">
+                                        <div class="bloc2">
+                                            <h4>Les personnes appartenant à la catégorie à haut risque ne devraient pas jeûner.</h4>
+                                            <p>
+                                                Votre patient présente un risque élevé à très élevé de développer des complications lors du jeune du mois de Ramadan, nous recommandons que votre patient ne jeune pas.<br><br>
 
-                                       <span class="ref-btm"> Réf: Diabetes & Ramadan guidelines 2021, janv-2021 </span></p>
+                                                S'il insiste encore à jeuner, un maximum d'attention et une surveillance sricte devraient être accordés à coté des startégies et recommandarions publiées dans  " Diabetes and Ramadan: practical guideline 2021" .
 
+
+
+
+
+
+
+
+
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="bloc3">
+                                            <h2>
+                                                <span class="sous-h2 ">recommandations</span><br />
+                                                médicales:
+                                            </h2>
+
+                                            <p class="txt-btm-bloc3 couleur-rouge"><i class="fa fa-arrow-right" aria-hidden="true"></i> Il est déconseillé de jeûner</p>
+
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="ref">
+                                    <p>
+                                        <span class="title-ref">Le jeûne devrait être interrompu si: </span><br>
+                                        - Glycémie &#60; 70 mg/dl (3,9 mmol/l), vérifiez après 1 heure si la glycémie est comprise entre 70 mg/dl et 90 mg/dl (3,9-5 mmol/l)<br> - Glycémie > 300 mg/dl (16,6
+                                        mmol/l)*<br> - Des symptômes d'hypoglycémie, d'hyperglycémie, de déshydratation ou apparition de maladie aiguë.<br>
 
-                                <div style="clear: both;"></div>
-                              
+                                        <span class="ref-btm"> Réf: Diabetes & Ramadan guidelines 2021, janv-2021 </span>
+                                    </p>
+
+                                </div>
                             </div>
-                              <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
+
+                            <div style="clear: both;"></div>
+
                         </div>
+                        <span class="text-btm">Diabetes and Ramadan: Practical Guidelines 2021</span>
                     </div>
-                </section>
+                </div>
             </section>
+        </section>
+        <div class="site-overlay"></div>
+    </div>
 
+    <!-- Scripts -->
 
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
-           
+    <script src="js/move-top.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/easing.js"></script>
+    <script type="text/javascript">
+        AOS.init({ duration: 1200 });
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
 
-            <div class="site-overlay"></div>
-        </div>
-
-        <!-- Scripts -->
-
-        <script src="js/jquery-2.1.3.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-     
-        <script src="js/move-top.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/easing.js"></script>
-        <script type="text/javascript">
-            AOS.init({ duration: 1200 });
-        </script>
-        <script type="text/javascript">
-            jQuery(document).ready(function ($) {
-                $(".scroll").click(function (event) {
-                    event.preventDefault();
-
-                    $("html,body").animate(
-                        {
-                            scrollTop: $(this.hash).offset().top,
-                        },
-                        1000
-                    );
-                });
+                $("html,body").animate(
+                    {
+                        scrollTop: $(this.hash).offset().top,
+                    },
+                    1000
+                );
             });
-        </script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                /*
-      var defaults = {
-          containerID: 'toTop', // fading element id
-          containerHoverID: 'toTopHover', // fading element hover id
-          scrollSpeed: 1200,
-          easingType: 'linear' 
-      };
-      */
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+var defaults = {
+      containerID: 'toTop', // fading element id
+      containerHoverID: 'toTopHover', // fading element hover id
+      scrollSpeed: 1200,
+      easingType: 'linear'
+};
+*/
 
-                $().UItoTop({
-                    easingType: "easeOutQuart",
-                });
+            $().UItoTop({
+                easingType: "easeOutQuart",
             });
-        </script>
-    </body>
+        });
+    </script>
+</body>
 </html>
