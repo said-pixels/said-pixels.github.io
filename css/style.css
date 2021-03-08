@@ -307,7 +307,7 @@ body.Templatequiz section .bg-right:before {
 # Page question
 --------------------------------------------------*/
 body.Templatequestion section.part1 {
-    background: url(../images/bg-question.jpg) center no-repeat;
+    background: url(../images/bg-question.jpg) center repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -725,11 +725,11 @@ body.Templatequiz section .content .btn-commencer a {
 
 }
 body.Templatequestion section.part1 {
-    height: 100vh;
+    height: 100%;
     padding-bottom: 50px;
 }
 body.Templatequestion section .content {
-    height:auto;
+    height: 100%;
 }
 body.Templatequestion section .text-btm {
    
