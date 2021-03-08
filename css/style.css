@@ -726,6 +726,7 @@ body.Templatequiz section .content .btn-commencer a {
 }
 body.Templatequestion section.part1 {
     height: 100%;
+    
     padding-bottom: 50px;
 }
 body.Templatequestion section .content {
