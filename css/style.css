@@ -978,7 +978,7 @@ body.Templatequiz   section .text-btm ,body.homepageTemplate section .text-btm{
 
 
 
-@media screen and (max-device-width: 812px) and (orientation: landscape) {
+@media screen and (max-device-width: 825px) and (orientation: landscape) {
 section .content {
  
     height: auto;
@@ -1006,4 +1006,30 @@ section .content-right {
 
 } 
 
+@media screen and (max-device-width: 667px) and (orientation: landscape) {
 
+.form-group-home input:checked + label:after {
+   
+    left: 38px;
+   
+
+}
+
+
+
+
+}
+@media screen and (max-device-width: 568px) and (orientation: landscape) {
+
+.form-group-home input:checked + label:after {
+   
+    left: 19px;
+}
+   
+
+}
+
+
+
+
+}
