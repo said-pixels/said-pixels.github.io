@@ -226,7 +226,10 @@ var quiz = {
                     "label": "Non fragile/ pas de perte des fonctions cognitives",
                     "score": 0
                 },
+
+                
             },
+
             "answer": [],
             "score": 0
         },
@@ -282,7 +285,7 @@ var quiz = {
                 },
                 "b": {
                     "group": "1",
-                    "label": "&gt; 16 heures",
+                    "label": "&lt; 16 heures",
                     "score": 0
                 }
 
@@ -358,6 +361,14 @@ var quizApp = function () {
             $("#qid").html('<span> Question </span>' + quiz.JS[this.currentque].id + '<span class="sous-title">/12</span>');
 
             $("body.Templatequestion section .content .quiz-body .btn-suivant .valider").css("display", "none");
+              $("body.Templatequestion section .content .quiz-body  .refq08").css("display", "none");
+
+
+                if (quiz.JS[this.currentque].id == "08") {
+             
+               $("body.Templatequestion section .content .quiz-body  .refq08").css("display", "block");
+            }
+
             if (quiz.JS[this.currentque].id == "12") {
                 $("body.Templatequestion section .content .quiz-body .btn-suivant .nxt").css("display", "none");
                 $("body.Templatequestion section .content .quiz-body .btn-suivant .valider").css("display", "block");
@@ -444,13 +455,25 @@ $(document).ready(function () {
     $('#question-options').on('change', 'input[type=radio][name^=option]', function (e) {
         $(this).prop("checked", true);
         selectedopt = $(this).val();
+
     });
 });
 
 $('#next').click(function (e) {
+ 
+if(document.querySelector('.form-check-input').checked == true){
+
     e.preventDefault();
     jsq.checkAnswer();
-    jsq.changeQuestion(1);
+    jsq.changeQuestion(1);}
+    else {
+
+ // alert("said");
+
+    }
+
+
+
 });
 
 $('#previous').click(function (e) {

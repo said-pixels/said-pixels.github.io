@@ -553,6 +553,21 @@ body.Templatequestion section.result1 .ref:before {
     background-size: contain;
 }
 
+body.Templatequestion section .content .quiz-body  .refq08 {
+    padding-left: 22px;
+    text-align: left;
+    color: #616161;
+    padding-top: 37px;
+}
+body.Templatequestion section .content .quiz-body .error {
+
+display: none;
+    text-align: right;
+   color: #842029;
+    padding-top: 37px;
+}
+
+
 
 body.Templatequestion 
 section .col-sm-4
