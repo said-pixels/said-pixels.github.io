@@ -461,16 +461,19 @@ $(document).ready(function () {
 
 $('#next').click(function (e) {
  
-if(document.querySelector('.form-check-input').checked == true){
-
+if ($('input.form-check-input').is(':checked')){
+console.log($('.form-check-input'));
     e.preventDefault();
     jsq.checkAnswer();
     jsq.changeQuestion(1);}
     else {
 
- // alert("said");
+$('body.Templatequestion section .content .quiz-body .form-group #optionval').addClass('border');
 
-    }
+
+
+
+}
 
 
 

@@ -600,8 +600,9 @@ body.Templatequestion section.result1 .content .couleur-vert{
 }
 
 
-
-
+body.Templatequestion section .content .quiz-body .form-group #optionval.border:before{
+    border-color:#DC143C;
+}
 
 
 
@@ -726,7 +727,7 @@ body.Templatequiz section .content .btn-commencer a {
 }
 body.Templatequestion section.part1 {
     height: 100%;
-    
+
     padding-bottom: 50px;
 }
 body.Templatequestion section .content {
@@ -974,3 +975,35 @@ body.Templatequiz   section .text-btm ,body.homepageTemplate section .text-btm{
 
 
     }
+
+
+
+@media screen and (max-device-width: 812px) and (orientation: landscape) {
+section .content {
+ 
+    height: auto;
+  
+}
+
+section .bg, section .bg-right {
+text-align:center;
+}
+body.Templatequestion section.result1 .bloc1, body.Templatequestion section.result1 .bloc2, body.Templatequestion section.result1 .bloc3 {
+
+    height: 515px;
+}
+
+section .content-right {
+
+    height: 130vh;
+  
+}
+
+
+
+
+
+
+} 
+
+
