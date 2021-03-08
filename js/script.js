@@ -325,7 +325,7 @@ var quiz = {
                     "label": "Gliclazide/MR, Glimépiride ou repaglinide",
                     "score": 0.5
                 },
-                "e": {
+                "g": {
                     "group": "1",
                     "label": "Autre traitement n'incluant ni Sulfamides hypoglycémiants ni insuline",
                     "score": 0
@@ -370,7 +370,7 @@ var quizApp = function () {
                     $("#question-options").append(
                         "<div class='form-check option-block'>" +
                         "<label class='form-check-label'>" +
-                        "<input type='radio' class='form-check-input' name='option" + quiz.JS[this.currentque].options[key].group + "'   id='q" + key + "' value='" + key + "'><span id='optionval'>" +
+                        "<input type='radio' class='form-check-input' name='option" + quiz.JS[this.currentque].options[key].group + "'   id='q" + key + "' value='" + key + "' ><span id='optionval'>" +
                         quiz.JS[this.currentque].options[key].label +
                         "</span></label>"
                     );
