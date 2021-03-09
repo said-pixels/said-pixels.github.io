@@ -364,7 +364,7 @@ var quizApp = function () {
               $("body.Templatequestion section .content .quiz-body  .refq08").css("display", "none");
 
 
-                if (quiz.JS[this.currentque].id == "08") {
+                if (quiz.JS[this.currentque].id == "06") {
              
                $("body.Templatequestion section .content .quiz-body  .refq08").css("display", "block");
             }
