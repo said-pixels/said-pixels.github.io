@@ -130,6 +130,7 @@ section .content h2 span {
     color: #b4b832;
     font-size: 40px;
     font-weight: bold;
+    line-height: 42px;
 }
 section .text-btm {
     padding-left: 50px;
