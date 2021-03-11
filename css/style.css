@@ -887,6 +887,19 @@ body.Templatequestion section.result1 .ref:after {
     top: 0px;
    
 }
+
+
+body.homepageTemplate section .content {
+    
+    height:100%;
+   
+}
+
+
+
+
+
+
 body.Templatequestion section.result1 .bloc1, body.Templatequestion section.result1 .bloc2, body.Templatequestion section.result1 .bloc3 {
     padding: 20px 15px;
 }
