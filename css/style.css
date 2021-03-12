@@ -879,7 +879,7 @@ left:0px;
 
 
 
-    
+
 }
 
 
@@ -1003,7 +1003,7 @@ left:0px;
     }
 }
 
-@media screen and (max-device-width: 825px) and (orientation: landscape) {
+@media screen and (max-device-width: 991px) and (orientation: landscape) {
     section .content {
         height: auto;
     }
@@ -1018,9 +1018,7 @@ left:0px;
         height: 515px;
     }
 
-    section .content-right {
-        height: 130vh;
-    }
+   
 }
 
 @media screen and (max-device-width: 667px) and (orientation: landscape) {
