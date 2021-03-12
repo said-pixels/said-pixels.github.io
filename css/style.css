@@ -64,6 +64,11 @@ section .col-sm-4,section .col-xs-5,section .col-xs-7 {
     padding: 0;
     margin: 0;
 }
+section .row,
+section .col-sm-7, .col-sm-5 {
+    padding: 0;
+    margin: 0;
+}
 section .bg,
 section .bg-right {
     position: relative;
@@ -869,7 +874,43 @@ padding-left: 90px;}
 
  }
 
+@media only screen and (max-width: 767px){
 
+
+body.homepageTemplate section .logo-sanofi,body.Templatequiz section .logo-sanofi {
+   float: none;
+    margin: auto;
+    display: table;
+}
+body.homepageTemplate section .content-right,body.Templatequiz section .content-right {
+  margin-top:20px;
+
+      height: 400px;
+   
+}
+
+body.Templatequiz section .content-right {
+  margin-top:20px;
+
+      height: 600px;
+   
+}
+
+body.Templatequiz section .content-right .img-quiz {
+    padding-left: 0;
+}
+
+}
+.mlc {
+    width: 100%;
+    left: 0;
+    margin: auto;
+    display: table;
+    right: 0;
+    text-align: center;
+}
+
+}
 @media only screen and (max-width: 700px){
 body.Templatequestion section.result1 .ref {
   padding: 20px 15px;
@@ -961,9 +1002,7 @@ body.homepageTemplate section .logo-sanofi img,body.Templatequiz section .logo-s
 body.Templatequiz section .content-right .img-quiz img {
     width: 138px;
 }
-body.Templatequiz section .content-right .img-quiz {
-    padding-left: 65px;
-}
+
 body.Templatequiz section .content h2 {
     font-size: 12px;
 }
@@ -992,6 +1031,11 @@ body.Templatequiz   section .text-btm ,body.homepageTemplate section .text-btm{
     width: 6px;
     height: 14px;
 
+}
+
+body.Templatequiz section .content-right {
+  
+    height: 355px;
 }
 
 
