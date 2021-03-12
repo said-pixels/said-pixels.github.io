@@ -60,12 +60,15 @@ section .logo {
 }
 
 section .row,
-section .col-sm-4,section .col-xs-5,section .col-xs-7 {
+section .col-sm-4,
+section .col-xs-5,
+section .col-xs-7 {
     padding: 0;
     margin: 0;
 }
 section .row,
-section .col-sm-7, .col-sm-5 {
+section .col-sm-7,
+.col-sm-5 {
     padding: 0;
     margin: 0;
 }
@@ -559,25 +562,20 @@ body.Templatequestion section.result1 .ref:before {
     background-size: contain;
 }
 
-body.Templatequestion section .content .quiz-body  .refq08 {
+body.Templatequestion section .content .quiz-body .refq08 {
     padding-left: 22px;
     text-align: left;
     color: #616161;
     padding-top: 37px;
 }
 body.Templatequestion section .content .quiz-body .error {
-
-display: none;
+    display: none;
     text-align: right;
-   color: #842029;
+    color: #842029;
     padding-top: 37px;
 }
 
-
-
-body.Templatequestion 
-section .col-sm-4
- {
+body.Templatequestion section .col-sm-4 {
     padding-right: 2px;
 
     padding-left: 2px;
@@ -589,29 +587,21 @@ section .col-sm-4
 
 body.Templatequestion section.result1 .content .couleur-orange {
     color: #fdb814 !important;
- 
 }
 /*--------------------------------------------------
 #  result3
 --------------------------------------------------*/
 body.Templatequestion section.result1 .content .couleur-rouge {
     color: #ed1a3a !important;
- 
 }
 
-
-body.Templatequestion section.result1 .content .couleur-vert{
-    color: #54b54e!important;
- 
+body.Templatequestion section.result1 .content .couleur-vert {
+    color: #54b54e !important;
 }
 
-
-body.Templatequestion section .content .quiz-body .form-group #optionval.border:before{
-    border-color:#DC143C;
+body.Templatequestion section .content .quiz-body .form-group #optionval.border:before {
+    border-color: #dc143c;
 }
-
-
-
 
 #toTop {
     display: none;
@@ -628,10 +618,10 @@ body.Templatequestion section .content .quiz-body .form-group #optionval.border:
     background: #b4b832;
     border-radius: 3px;
 }
-#toTop:hover{
-box-shadow: -1px 1px 23.84px 9px rgb(7 45 86 / 73%);}
+#toTop:hover {
+    box-shadow: -1px 1px 23.84px 9px rgb(7 45 86 / 73%);
+}
 .fa-angle-up:before {
-
     color: #fff;
     right: 21px;
     font-size: 18px;
@@ -640,11 +630,6 @@ box-shadow: -1px 1px 23.84px 9px rgb(7 45 86 / 73%);}
     position: absolute;
     top: 5px;
 }
-
-
-
-
-
 
 #toTopHover {
     width: 32px;
@@ -679,424 +664,352 @@ left:0px;
 }
 */
 
-.mlc{
- 
-
+.mlc {
     position: absolute;
     right: 50px;
-    bottom: 30px;}
+    bottom: 30px;
+}
 
-    .mlc a{
-        color:#fff;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
+.mlc a {
+    color: #fff;
+}
 
 /*--------------------------------------------------
 #  respensive
 --------------------------------------------------*/
-@media only screen and (max-width : 1366px) {
-
-section .content h1 {font-size: 45px;}
-section .content h2 {font-size: 27px;}
-section .content h2 span { font-size: 32px;}
-.form-group-home label { font-size: 17px;}
-.form-group-home {
-    padding: 16px 18px;
-    margin: 18px 0px;
-}
-.logo-Ramadan {
-    padding:15px 0px;
-}
-
-body.Templatequiz section .content-right .img-quiz img {
-    width: 361px;
-}
-
-body.Templatequiz section .content h2 {
- 
-    font-size: 22px;
-  
-}
-
-body.Templatequiz section .content h3 {
-
-    font-size: 16px;
-
-}
-body.Templatequiz section .content .btn-commencer a {
-    padding: 20px 30px;
-    font-size: 20px;
-    margin-top: 35px;
-
-}
-body.Templatequestion section.part1 {
-    height: 100%;
-
-    padding-bottom: 50px;
-}
-body.Templatequestion section .content {
-    height: 100%;
-}
-body.Templatequestion section .text-btm {
-   
-    padding-top: 88px;
-    display: inline-block;
-}
-}
- @media only screen and (max-width : 1199px) {
-
-section .logo {
-    padding: 15px 0px 0px 15px;
-}
-
-
-section .logo-sanofi {
-   
-    padding: 15px 15px 0px 0px;
-}
-section .logo img{
-
-max-width:200px;
-}
-section .logo-sanofi img{
-max-width:100px;
-
-}   
-section .content h2 {
-    font-size: 23px;
-}
-section .content h1 {
-    font-size: 32px;
-}
-section .content h2 span {
-    font-size: 23px;
-}
-
-section .content h2 {
-    font-size: 18px;
-}
-.form-group-home label {
-    font-size: 14px;
-}
-.logo-Ramadan img {
-    max-width: 180px;
-}
-section .bg:before {
-    width: 83px;
-    height: 131px;}
-section .bg-right:before {
- 
-    width: 114px;
-    height: 183px;}
-
-section .text-btm {
-    padding-left: 13px;
-    font-size: 13px;
-}
-.form-group-home {
-    border-radius: 10px;
-    padding: 4px 5px;
-    margin: 18px 0px;
-}
-
-body.Templatequiz section .content h2 {
-    font-size: 20px;
-}
-body.Templatequestion section.result1 .bloc1 img{
-   max-width: 166px;
-}
-body.Templatequestion section.result1 .bloc1, body.Templatequestion section.result1 .bloc2, body.Templatequestion section.result1 .bloc3 {
-padding: 20px;
-}
-
-body.Templatequestion section.result1 .bloc2 h4 {
-    font-size: 13px;}
-
-body.Templatequestion section.result1 .ref {
- 
-    width: 617px;}
-
-
-
-
-
-
-
-
-}
-
-
- @media only screen and (max-width : 991px) {
-body.Templatequestion section .content .quiz-body {
-  
-width: 100%;
-      padding: 15px;
-height: auto;
-}
-
-body.Templatequestion section .content .quiz-body .form-group #question {
- 
-    font-size: 18px;
-
-}
-body.Templatequestion section .content .quiz-body .form-group #optionval {
-  
-    padding-left: 19px;}
-body.Templatequestion section .content .quiz-body .form-group {
-  
-    padding-left: 10px;
- 
-}
-
-
-body.Templatequestion section.result1 .ref {
-padding: 20px 19px;
-width: 552px;
-margin-left: 0px;
-}
-body.Templatequiz section .content-right .img-quiz img {
-    width: 286px;
-}
-body.Templatequiz section .content-right .img-quiz{
-padding-left: 90px;}
-
-
- }
-
-@media only screen and (max-width: 767px){
-
-
-body.homepageTemplate section .logo-sanofi,body.Templatequiz section .logo-sanofi {
-   float: none;
-    margin: auto;
-    display: table;
-}
-body.homepageTemplate section .content-right,body.Templatequiz section .content-right {
-  margin-top:20px;
-
-      height: 400px;
-   
-}
-
-body.Templatequiz section .content-right {
-  margin-top:20px;
-
-      height: 600px;
-   
-}
-
-body.Templatequiz section .content-right .img-quiz {
-    padding-left: 0;
-}
-
-}
-.mlc {
-    width: 100%;
-    left: 0;
-    margin: auto;
-    display: table;
-    right: 0;
-    text-align: center;
-}
-
-}
-@media only screen and (max-width: 700px){
-body.Templatequestion section.result1 .ref {
-  padding: 20px 15px;
-    width: 100%;
- 
-} 
-body.Templatequestion section.result1 .ref:before{
-    display: none}
-
-body.Templatequestion section.result1 .ref:after {
-    bottom:auto;
-    width: 70px;
-    height: 61px;
-    right: 0;
-    top: 0px;
-   
-}
-
-
-body.homepageTemplate section .content {
-    
-    height:100%;
-   
-}
-
-
-
-
-
-
-body.Templatequestion section.result1 .bloc1, body.Templatequestion section.result1 .bloc2, body.Templatequestion section.result1 .bloc3 {
-    padding: 20px 15px;
-}
-section .content h1 {
-    font-size: 21px;
-}
-
-body.Templatequiz section .content-right .img-quiz img {
-    width: 182px;
-}
-body.Templatequiz section .content h2 {
-    font-size: 14px;
-}
-body.Templatequiz section .content h3 {
-    font-size: 10px;
-}
-body.Templatequiz section .content .btn-commencer a {
-    padding: 10px 20px;
-    font-size: 15px;
-    margin-top: 35px;
-}
-
-
-}
-
-
-@media only screen and (max-width : 480px) {
-body.Templatequestion section .logo, body.Templatequestion section .logo-sanofi{
-  float: none;
-    margin:10px auto;
-    display: table;
-
-}
-
-body.homepageTemplate section .bg:before,body.homepageTemplate section .bg-right:before  {
- display:none;
-}
-.logo-Ramadan img {
-    max-width: 90px;
-}
-body.homepageTemplate section .content h2 {
-    font-size: 14px;
-}
-body.homepageTemplate section .content h2 span {
-    font-size: 12px;
-}
-
-body.homepageTemplate  section .logo img,body.Templatequiz  section .logo img{
-    max-width: 102px;
-}
-body.homepageTemplate section .logo-sanofi img,body.Templatequiz section .logo-sanofi img {
-    max-width: 57px;
-}
-.form-group-home label {
-    font-size: 11px;
- 
-    line-height: 15px;
-}
-body.Templatequiz section .content-right .img-quiz img {
-    width: 138px;
-}
-
-body.Templatequiz section .content h2 {
-    font-size: 12px;
-}
-.form-group-home label:before {
-
-    padding: 6px;
-  
-}
-body.Templatequiz section .bg:before,body.Templatequiz section .bg-right:before  {
- display:none;
-}
-
-body.Templatequiz   section .text-btm ,body.homepageTemplate section .text-btm{
-    padding-left: 13px;
-    font-size: 12px;
-    line-height:  15px;
-    display: inline-block;
-    text-align: center;
-}
-
-.form-group-home input:checked + label:after {
-    content: "";
-
-    top: 1px;
-    left: 10px;
-    width: 6px;
-    height: 14px;
-
-}
-
-body.Templatequiz section .content-right {
-  
-    height: 355px;
-}
-
-
-
-
+@media only screen and (max-width: 1366px) {
+    section .content h1 {
+        font-size: 45px;
+    }
+    section .content h2 {
+        font-size: 27px;
+    }
+    section .content h2 span {
+        font-size: 32px;
+    }
+    .form-group-home label {
+        font-size: 17px;
+    }
+    .form-group-home {
+        padding: 16px 18px;
+        margin: 18px 0px;
+    }
+    .logo-Ramadan {
+        padding: 15px 0px;
     }
 
+    body.Templatequiz section .content-right .img-quiz img {
+        width: 361px;
+    }
 
+    body.Templatequiz section .content h2 {
+        font-size: 22px;
+    }
+
+    body.Templatequiz section .content h3 {
+        font-size: 16px;
+    }
+    body.Templatequiz section .content .btn-commencer a {
+        padding: 20px 30px;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    body.Templatequestion section.part1 {
+        height: 100%;
+
+        padding-bottom: 50px;
+    }
+    body.Templatequestion section .content {
+        height: 100%;
+    }
+    body.Templatequestion section .text-btm {
+        padding-top: 88px;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    section .logo {
+        padding: 15px 0px 0px 15px;
+    }
+
+    section .logo-sanofi {
+        padding: 15px 15px 0px 0px;
+    }
+    section .logo img {
+        max-width: 200px;
+    }
+    section .logo-sanofi img {
+        max-width: 100px;
+    }
+    section .content h2 {
+        font-size: 23px;
+    }
+    section .content h1 {
+        font-size: 32px;
+    }
+    section .content h2 span {
+        font-size: 23px;
+    }
+
+    section .content h2 {
+        font-size: 18px;
+    }
+    .form-group-home label {
+        font-size: 14px;
+    }
+    .logo-Ramadan img {
+        max-width: 180px;
+    }
+    section .bg:before {
+        width: 83px;
+        height: 131px;
+    }
+    section .bg-right:before {
+        width: 114px;
+        height: 183px;
+    }
+
+    section .text-btm {
+        padding-left: 13px;
+        font-size: 13px;
+    }
+    .form-group-home {
+        border-radius: 10px;
+        padding: 4px 5px;
+        margin: 18px 0px;
+    }
+
+    body.Templatequiz section .content h2 {
+        font-size: 20px;
+    }
+    body.Templatequestion section.result1 .bloc1 img {
+        max-width: 166px;
+    }
+    body.Templatequestion section.result1 .bloc1,
+    body.Templatequestion section.result1 .bloc2,
+    body.Templatequestion section.result1 .bloc3 {
+        padding: 20px;
+    }
+
+    body.Templatequestion section.result1 .bloc2 h4 {
+        font-size: 13px;
+    }
+
+    body.Templatequestion section.result1 .ref {
+        width: 617px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    body.Templatequestion section .content .quiz-body {
+        width: 100%;
+        padding: 15px;
+        height: auto;
+    }
+
+    body.Templatequestion section .content .quiz-body .form-group #question {
+        font-size: 18px;
+    }
+    body.Templatequestion section .content .quiz-body .form-group #optionval {
+        padding-left: 19px;
+    }
+    body.Templatequestion section .content .quiz-body .form-group {
+        padding-left: 10px;
+    }
+
+    body.Templatequestion section.result1 .ref {
+        padding: 20px 19px;
+        width: 552px;
+        margin-left: 0px;
+    }
+    body.Templatequiz section .content-right .img-quiz img {
+        width: 286px;
+    }
+    body.Templatequiz section .content-right .img-quiz {
+        padding-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body.homepageTemplate section .logo-sanofi,
+    body.Templatequiz section .logo-sanofi {
+        float: none;
+        margin: auto;
+        display: table;
+    }
+    body.homepageTemplate section .content-right,
+    body.Templatequiz section .content-right {
+        margin-top: 20px;
+
+        height: 400px;
+    }
+
+    body.Templatequiz section .content-right {
+        margin-top: 20px;
+
+        height: 600px;
+    }
+
+    body.Templatequiz section .content-right .img-quiz {
+        padding-left: 0;
+    }
+
+    .mlc {
+        width: 100%;
+        left: 0;
+        margin: auto;
+        display: table;
+        right: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body.Templatequestion section.result1 .ref {
+        padding: 20px 15px;
+        width: 100%;
+    }
+    body.Templatequestion section.result1 .ref:before {
+        display: none;
+    }
+
+    body.Templatequestion section.result1 .ref:after {
+        bottom: auto;
+        width: 70px;
+        height: 61px;
+        right: 0;
+        top: 0px;
+    }
+
+    body.homepageTemplate section .content {
+        height: 100%;
+    }
+
+    body.Templatequestion section.result1 .bloc1,
+    body.Templatequestion section.result1 .bloc2,
+    body.Templatequestion section.result1 .bloc3 {
+        padding: 20px 15px;
+    }
+    section .content h1 {
+        font-size: 21px;
+    }
+
+    body.Templatequiz section .content-right .img-quiz img {
+        width: 182px;
+    }
+    body.Templatequiz section .content h2 {
+        font-size: 14px;
+    }
+    body.Templatequiz section .content h3 {
+        font-size: 10px;
+    }
+    body.Templatequiz section .content .btn-commencer a {
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body.Templatequestion section .logo,
+    body.Templatequestion section .logo-sanofi {
+        float: none;
+        margin: 10px auto;
+        display: table;
+    }
+
+    body.homepageTemplate section .bg:before,
+    body.homepageTemplate section .bg-right:before {
+        display: none;
+    }
+    .logo-Ramadan img {
+        max-width: 90px;
+    }
+    body.homepageTemplate section .content h2 {
+        font-size: 14px;
+    }
+    body.homepageTemplate section .content h2 span {
+        font-size: 12px;
+    }
+
+    body.homepageTemplate section .logo img,
+    body.Templatequiz section .logo img {
+        max-width: 102px;
+    }
+    body.homepageTemplate section .logo-sanofi img,
+    body.Templatequiz section .logo-sanofi img {
+        max-width: 57px;
+    }
+    .form-group-home label {
+        font-size: 11px;
+
+        line-height: 15px;
+    }
+    body.Templatequiz section .content-right .img-quiz img {
+        width: 138px;
+    }
+
+    body.Templatequiz section .content h2 {
+        font-size: 12px;
+    }
+    .form-group-home label:before {
+        padding: 6px;
+    }
+    body.Templatequiz section .bg:before,
+    body.Templatequiz section .bg-right:before {
+        display: none;
+    }
+
+    body.Templatequiz section .text-btm,
+    body.homepageTemplate section .text-btm {
+        padding-left: 13px;
+        font-size: 12px;
+        line-height: 15px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .form-group-home input:checked + label:after {
+        content: "";
+
+        top: 1px;
+        left: 10px;
+        width: 6px;
+        height: 14px;
+    }
+
+    body.Templatequiz section .content-right {
+        height: 355px;
+    }
+}
 
 @media screen and (max-device-width: 825px) and (orientation: landscape) {
-section .content {
- 
-    height: auto;
-  
+    section .content {
+        height: auto;
+    }
+
+    section .bg,
+    section .bg-right {
+        text-align: center;
+    }
+    body.Templatequestion section.result1 .bloc1,
+    body.Templatequestion section.result1 .bloc2,
+    body.Templatequestion section.result1 .bloc3 {
+        height: 515px;
+    }
+
+    section .content-right {
+        height: 130vh;
+    }
 }
-
-section .bg, section .bg-right {
-text-align:center;
-}
-body.Templatequestion section.result1 .bloc1, body.Templatequestion section.result1 .bloc2, body.Templatequestion section.result1 .bloc3 {
-
-    height: 515px;
-}
-
-section .content-right {
-
-    height: 130vh;
-  
-}
-
-
-
-
-
-
-} 
 
 @media screen and (max-device-width: 667px) and (orientation: landscape) {
-
-.form-group-home input:checked + label:after {
-   
-    left: 38px;
-   
-
-}
-
-
-
-
+    .form-group-home input:checked + label:after {
+        left: 38px;
+    }
 }
 @media screen and (max-device-width: 568px) and (orientation: landscape) {
-
-.form-group-home input:checked + label:after {
-   
-    left: 19px;
-}
-   
-
-}
-
-
-
-
+    .form-group-home input:checked + label:after {
+        left: 19px;
+    }
 }
