@@ -2,6 +2,7 @@
 # Fonts
 --------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @font-face {
     font-family: "Catorze27 Style 1";
     src: url("../fonts/Catorze27Style1-Medium.woff2") format("woff2"), url("../fonts/Catorze27Style1-Medium.woff") format("woff");
@@ -27,6 +28,14 @@
     font-family: "Catorze27 Style 1";
     src: url("../fonts/Catorze27Style1-Black.woff2") format("woff2"), url("../fonts/Catorze27Style1-Black.woff") format("woff");
     font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('../fonts/AvantGarde-Medium.woff2') format('woff2'),
+        url('../fonts/AvantGarde-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
@@ -670,7 +679,9 @@ left:0px;
 
 }
 */
-
+/*--------------------------------------------------
+# Page Mention legal
+--------------------------------------------------*/
 .mlc {
     position: absolute;
     right: 50px;
@@ -679,6 +690,64 @@ left:0px;
 
 .mlc a {
     color: #fff;
+}
+
+body.pagemlc {
+color: #2b2b38;
+font-family: 'Noto Sans', sans-serif;
+line-height: 1.5;
+    font-size: 16px;
+}
+
+body.pagemlc .banner-top{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/osw-top-default-blue.jpg);
+
+
+padding:120px 0px;
+}
+   
+
+body.pagemlc h1{
+line-height: 24px;
+ color: #fff;
+ text-align: center;
+ font-size:50px;
+    font-weight: bold;
+ 
+}
+body.pagemlc .osw-titlesize-h2{
+ font-family: 'ITC Avant Garde Gothic';
+ color: #525ca3;
+ font-size:35px;
+    font-weight: bold;
+}
+
+body.pagemlc .osw-titlesize-h2{
+ font-family: 'ITC Avant Garde Gothic';
+ color: #525ca3;
+ font-size: 40px;
+ font-weight: bold;
+ margin: 25px 0 25px 0;
+}
+
+
+body.pagemlc h3{
+
+color: #525ca3;
+
+font-size: 28px;
+
+font-weight: bold;
+
+margin: 25px 0 20px 0;
+}
+body.pagemlc .osw-intro {
+    color: #525ca3;
+    font-size: 18px;
+ padding-top: 50px;
+ font-weight:bold;
+
 }
 
 /*--------------------------------------------------
@@ -870,16 +939,38 @@ left:0px;
     }
 
 
+body.pagemlc h3 {
+   
+    font-size: 23px;
 
+}
 
+body.pagemlc .osw-titlesize-h2 {
+   
+    font-size: 28px;
+  
+}
 
+body.pagemlc .osw-intro {
+  
+    font-size: 16px;
 
+}
 
+body.pagemlc {
+ 
+    font-size: 14px;
+}
 
-
-
-
-
+body.pagemlc h1 {
+  
+    font-size: 40px;
+  
+}
+body.pagemlc .banner-top {
+ 
+    padding: 80px 0px;
+}
 }
 
 
@@ -1001,6 +1092,33 @@ left:0px;
     body.Templatequiz section .content-right {
         height: 355px;
     }
+
+body.pagemlc h1 {
+ 
+    font-size: 30px;
+ 
+}
+body.pagemlc .banner-top {
+
+    padding: 60px 0px;
+}
+
+body.pagemlc h3 {
+  
+    font-size: 19px;
+   
+}
+
+body.pagemlc .osw-titlesize-h2 {
+  
+    font-size: 22px;
+
+}
+
+
+
+
+
 }
 
 @media screen and (max-device-width: 991px) and (orientation: landscape) {
